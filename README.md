@@ -5,6 +5,7 @@
 * starter-code project has all the code.
 * In jenkins screenshots folder, there is also a log file with complete jenkins build log.
 * In logs folder, there are access and application logs.
+* Authorization code was provided by Udacity in the corresponding module (DevOps), Lesson, part 12, in Supporting Material section.
 
 # eCommerce Application
 
