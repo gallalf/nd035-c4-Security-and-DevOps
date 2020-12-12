@@ -1,3 +1,11 @@
+# eCommerce Solution
+
+* Branches master and course4-solution contains complete solution for this task.
+* screenshots folder contains subfolders named splunk and jenkins, with corresponding screenshots.
+* starter-code project has all the code.
+* In jenkins screenshots folder, there is also a log file with complete jenkins build log.
+* In logs folder, there are access and application logs.
+
 # eCommerce Application
 
 In this project, you'll have an opportunity to demonstrate the security and DevOps skills that you learned in this lesson by completing an eCommerce application. You'll start with a template for the complete application, and your goal will be to take this template and add proper authentication and authorization controls so users can only access their data, and that data can only be accessed in a secure way. 
