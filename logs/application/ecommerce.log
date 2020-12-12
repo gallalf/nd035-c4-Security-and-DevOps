@@ -1,0 +1,30 @@
+2020-12-12 17:38:04.261  INFO 208248 --- [main] com.example.demo.EcommerceApplication    : Starting EcommerceApplication on LAPTOP-3FVRGU8N with PID 208248 (D:\Udacity\spring\tarefas\modulo4-devops\nd035-c4-Security-and-DevOps\starter_code\target\classes started by alfredocolito in D:\Udacity\spring\tarefas\modulo4-devops\nd035-c4-Security-and-DevOps\starter_code)
+2020-12-12 17:38:04.275  INFO 208248 --- [main] com.example.demo.EcommerceApplication    : No active profile set, falling back to default profiles: default
+2020-12-12 17:38:05.574  INFO 208248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-12-12 17:38:05.662  INFO 208248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 4 repository interfaces.
+2020-12-12 17:38:06.404  INFO 208248 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8ec953] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-12 17:38:06.932  INFO 208248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-12-12 17:38:06.972  INFO 208248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-12 17:38:06.973  INFO 208248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2020-12-12 17:38:07.193  INFO 208248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-12 17:38:07.193  INFO 208248 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2792 ms
+2020-12-12 17:38:07.410  INFO 208248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-12 17:38:07.635  INFO 208248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-12 17:38:07.713  INFO 208248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-12-12 17:38:07.853  INFO 208248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2020-12-12 17:38:07.858  INFO 208248 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-12-12 17:38:08.097  INFO 208248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-12-12 17:38:08.566  INFO 208248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-12-12 17:38:09.958  INFO 208248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-12 17:38:10.835  WARN 208248 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-12 17:38:10.937  INFO 208248 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2079fcfc, org.springframework.security.web.context.SecurityContextPersistenceFilter@30a20fb3, org.springframework.security.web.header.HeaderWriterFilter@7b54a0a4, org.springframework.web.filter.CorsFilter@77401977, org.springframework.security.web.authentication.logout.LogoutFilter@58486deb, com.example.demo.security.JWTAuthenticationFilter@7865cc83, com.example.demo.security.JWTAuthenticationVerficationFilter@5cb76070, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f6d36eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d45dd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3346e906, org.springframework.security.web.session.SessionManagementFilter@2e64ae1a, org.springframework.security.web.access.ExceptionTranslationFilter@7857cb1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7ea039b4]
+2020-12-12 17:38:11.258  INFO 208248 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-12 17:38:11.643  INFO 208248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-12-12 17:38:11.646  INFO 208248 --- [main] com.example.demo.EcommerceApplication    : Started EcommerceApplication in 7.954 seconds (JVM running for 8.556)
+2020-12-12 17:39:53.456  INFO 208248 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-12 17:39:53.458  INFO 208248 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-12 17:39:53.468  INFO 208248 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-12-12 17:39:53.599  INFO 208248 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : [createUser] route called
+2020-12-12 17:39:53.763  INFO 208248 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : [createUser] user saved SUCCESSFULLY
