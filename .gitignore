@@ -1,5 +1,6 @@
-# OS generated files #
-######################
+# OS generated files and files suggested by mentor in question #
+# https://knowledge.udacity.com/questions/368273 #
+###################### 
 .DS_Store
 .DS_Store?
 ._*
@@ -7,6 +8,19 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-.idea/
-*.iml
 target/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+### mvn scripts ###
+mvn.cmd
+mvnw
