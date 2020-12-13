@@ -67,7 +67,14 @@ public class UserController {
 			return ResponseEntity.badRequest().build();
 		}
 		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
-		userRepository.save(user);
+
+		try {
+			userRepository.save(user);
+		} catch(Exception e){
+			log.error("[createUser] exception: " + e.getMessage());
+			e.printStackTrace();
+			return ResponseEntity.unprocessableEntity().build();
+		}
 
 		log.info("[createUser] user saved SUCCESSFULLY");
 
