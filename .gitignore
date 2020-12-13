@@ -22,5 +22,5 @@ target/
 *.iml
 *.ipr
 ### mvn scripts ###
-mvn.cmd
+mvnw.cmd
 mvnw
